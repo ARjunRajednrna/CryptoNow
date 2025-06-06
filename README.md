@@ -1,12 +1,55 @@
-# React + Vite
+🪙 Crypto Price Tracker
+A responsive cryptocurrency dashboard built with React JS, utilizing the CoinGecko API to fetch real-time data. This application allows users to view live prices, market statistics, and detailed information about various cryptocurrencies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Live Cryptocurrency Prices: Fetches real-time data for various cryptocurrencies.
 
-Currently, two official plugins are available:
+Search Functionality: Allows users to search for specific coins.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Detailed Coin View: Provides comprehensive information about selected coins.
 
-## Expanding the ESLint configuration
+Responsive Design: Optimized for both desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Routing: Implements client-side routing using React Router.
+
+🛠️ Technologies Used
+React JS: Frontend library for building user interfaces.
+
+React Router DOM: For handling in-app routing.
+
+CoinGecko API: Source of cryptocurrency data.
+
+CSS Modules: For component-scoped styling.
+
+📂 Project Structure
+
+crypto-price-tracker/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── Navbar/
+│   │       └── Navbar.jsx
+│   ├── pages/
+│   │   ├── Home/
+│   │   │   └── Home.jsx
+│   │   └── Coin/
+│   │       └── Coin.jsx
+│   ├── context/
+│   │   └── CoinContext.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+└── README.md
+
+🔧 Configuration
+No additional configuration is required. The application uses the public CoinGecko API, which does not require an API key for basic endpoints.
+
+PROJECT LINK : 
+
+📈 API Reference
+CoinGecko API: https://www.coingecko.com/en/api
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
