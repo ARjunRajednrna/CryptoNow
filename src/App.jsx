@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'
-import Coin from './pages/Coin/coin'   //Check these when i get error 
+import Coin from './pages/Coin/Coin'   //Check these when i get error 
 import Footer from './components/Footer/Footer'
 
 const App = () => {
