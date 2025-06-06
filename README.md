@@ -1,28 +1,32 @@
-🪙 Crypto Price Tracker
-A responsive cryptocurrency dashboard built with React JS, utilizing the CoinGecko API to fetch real-time data. This application allows users to view live prices, market statistics, and detailed information about various cryptocurrencies.
+# 🪙 Crypto Price Tracker
 
-🚀 Features
-Live Cryptocurrency Prices: Fetches real-time data for various cryptocurrencies.
+A responsive cryptocurrency dashboard built with **React JS**, using the **CoinGecko API** to fetch live price and coin data. This application allows users to view real-time prices, search for coins, and explore detailed information about individual cryptocurrencies.
 
-Search Functionality: Allows users to search for specific coins.
+---
 
-Detailed Coin View: Provides comprehensive information about selected coins.
+## 📸 Project Link: 
+---
 
-Responsive Design: Optimized for both desktop and mobile devices.
+## 🚀 Features
 
-Routing: Implements client-side routing using React Router.
+- 🔄 **Live Price Tracking** — Real-time updates for top cryptocurrencies.
+- 🔍 **Search Coins** — Instantly filter and find your favorite tokens.
+- 📊 **Coin Detail View** — Symbol, price, volume, and historical data.
+- 🌐 **Routing with React Router** — Navigate between pages seamlessly.
+- 📱 **Responsive Design** — Mobile and desktop friendly.
 
-🛠️ Technologies Used
-React JS: Frontend library for building user interfaces.
+---
 
-React Router DOM: For handling in-app routing.
+## 🛠️ Built With
 
-CoinGecko API: Source of cryptocurrency data.
+- [React JS](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [CoinGecko API](https://www.coingecko.com/en/api)
+- CSS Modules
 
-CSS Modules: For component-scoped styling.
+---
 
-📂 Project Structure
-
+## 📁 Project Structure
 crypto-price-tracker/
 ├── public/
 │   └── index.html
@@ -43,13 +47,21 @@ crypto-price-tracker/
 ├── package.json
 └── README.md
 
-🔧 Configuration
-No additional configuration is required. The application uses the public CoinGecko API, which does not require an API key for basic endpoints.
 
-PROJECT LINK : 
+---
 
-📈 API Reference
-CoinGecko API: https://www.coingecko.com/en/api
+## 🧑‍💻 Getting Started
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/crypto-price-tracker.git
+cd crypto-price-tracker
+npm install
+
+
+
